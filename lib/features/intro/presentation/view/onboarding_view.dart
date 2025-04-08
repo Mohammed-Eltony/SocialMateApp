@@ -72,6 +72,8 @@ class _OnboardingViewState extends State<OnboardingView> {
                       },
                       itemBuilder: (context, index) {
                         return index == 0
+
+                        
                             ? Column(
                               children: [
                                 SvgPicture.asset(
